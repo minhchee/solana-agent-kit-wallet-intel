@@ -1,0 +1,23 @@
+{
+  "name": "@solana-agent-kit/plugin-wallet-intel",
+  "version": "1.0.0",
+  "description": "Read-only Solana address and program identifier for the Solana Agent Kit. Returns the known label, category, and risk note for an address so an agent can run a pre-interaction check.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "keywords": ["solana", "agent-kit", "plugin", "wallet-intel", "risk-check"],
+  "license": "MIT",
+  "peerDependencies": {
+    "solana-agent-kit": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0",
+    "zod": "^3.23.0"
+  }
+}
