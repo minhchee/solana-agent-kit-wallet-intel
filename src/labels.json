@@ -1,0 +1,62 @@
+{
+  "11111111111111111111111111111111": {
+    "label": "System Program",
+    "category": "Core",
+    "risk_note": "Native Solana system program. Safe to interact for system calls."
+  },
+  "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5": {
+    "label": "SPL Token Program",
+    "category": "Core",
+    "risk_note": "Standard token program. Verify individual token mints separately."
+  },
+  "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL": {
+    "label": "Associated Token Account Program",
+    "category": "Core",
+    "risk_note": null
+  },
+  "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZj4pU6THgJGD": {
+    "label": "Jupiter Aggregator v6",
+    "category": "Swap",
+    "risk_note": "Major DEX aggregator. Verify the quoted route before swapping."
+  },
+  "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8": {
+    "label": "Raydium AMM v4",
+    "category": "Swap",
+    "risk_note": "Major AMM. Check the pool authority and reserves."
+  },
+  "CAMMCzo5YL8Ygub53haxs2aPZzWuCPFzG3iZrZpxM7": {
+    "label": "Raydium CLMM",
+    "category": "Swap",
+    "risk_note": "Concentrated liquidity. Price range matters."
+  },
+  "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc": {
+    "label": "Orca Whirlpools",
+    "category": "Swap",
+    "risk_note": "Concentrated liquidity. Verify the pool before providing liquidity."
+  },
+  "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s": {
+    "label": "Metaplex Token Metadata",
+    "category": "NFT",
+    "risk_note": null
+  },
+  "M2mx93ekt1fmXSVkTrUL9xVFHuzFCz4a3YNDzmpQBk9": {
+    "label": "Magic Eden v2",
+    "category": "NFT",
+    "risk_note": "Marketplace. Verify the listing price before buying."
+  },
+  "SMPLecH534NA9PWcR9d6ySx1v2KjH8KjDjmuiGMFuc": {
+    "label": "Squads (Multisig)",
+    "category": "Multisig",
+    "risk_note": "Multisig vault. High trust required to be a signer."
+  },
+  "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD": {
+    "label": "Marinade Stake Pool",
+    "category": "Stake",
+    "risk_note": "Liquid staking. mSOL carries a small peg risk."
+  },
+  "dRiftyHA39MWEi3m9aunc5MzRF1JYuJAEKOpUhjhRv": {
+    "label": "Drift Protocol",
+    "category": "DeFi",
+    "risk_note": "Perp DEX. Leverage carries liquidation risk."
+  }
+}
